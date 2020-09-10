@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 """
     Author: Yogeshwaran R
     Description: Extract E-mail and Phone Number
@@ -10,9 +9,11 @@
     (Chrome driver must be install at current location")
 
 """
+# You can change this path Here
+
+PATH_TO_DRIVER = "C: \Program Files(x86)\Google\Chrome\chromedriver.exe"
 
 # Importing required Modules
-from selenium import webdriver
 import re
 import sys
 import bs4 as bs
@@ -42,10 +43,14 @@ try:
     url = sys.argv[1] #input for cmd arguement
     if sys.argv[2] == "1":
         try:
+            from selenium import webdriver
+        except ImportError as e:
+            print("No selenium Found")
+        try:
             try: # for windows
-                driver = webdriver.Chrome(executable_path ="C:\Program Files (x86)\Google\Chrome\chromedriver.exe") 
-            except: # for wsl
-                driver = webdriver.Chrome(executable_path="/mnt/c/Program Files (x86)/Google/chrome/chromedriver.exe")
+                driver = webdriver.Chrome(executable_path=PATH) 
+            except: 
+                print("No driver for chrome found")
             finally:    
                 driver.get(url)
                 html = driver.page_source
