@@ -5,14 +5,14 @@ It extracts all contact details (E-mail and Phone Numbers) from any websites and
 ### Requirements:
 1. bs4
 2. urllib3
-3. selenium
+3. selenium (First in open in Browser and scrape the information)
 4. requests
 ### Usage:
 ###### Not open in webbrowser:
 <code>python extract-contact.py web_address 0 </code> <br>
   
 ###### To open in webbrowser:
-  Reqired:chrome driver must be installed in specified loaction and selenium  </br>
+  Reqired:chrome driver must be installed in specified loaction </br>
 <code>python extract-contact.py web_address 1 </code>
 
 ###### For text files:
