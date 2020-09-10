@@ -11,8 +11,9 @@ It extracts all contact details (E-mail and Phone Numbers) from any websites and
 ###### Not open in webbrowser:
 <code>python extract-contact.py web_address 0 </code> <br>
   
-###### To open in webbrowser:
-  Reqired:chrome driver must be installed in specified loaction </br>
+###### To open in webbrowser and then Scrape:
+Required:chrome driver must be installed in specified loaction </br>
+  
 <code>python extract-contact.py web_address 1 </code>
 
 ###### For text files:
