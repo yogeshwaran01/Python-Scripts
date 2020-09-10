@@ -27,12 +27,12 @@ Required:chrome driver must be installed in specified loaction </br>
  <code> pip install instagramy </code>     [Github repo](https://github.com/yogeshwaran01/instagramy) </br>
  <code> pip install webbrowser </code>
  ### Usage:
-  <code>python instadp <username> </code>
+  <code>python instadp username </code>
   
 </br>
 
 ## url-forker.py
-To get url of the url
+To get urls of the url
 ### Requirements:
 1. bs4
 2. urllib3
