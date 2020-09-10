@@ -5,7 +5,7 @@ It extracts all contact details (E-mail and Phone Numbers) from any websites and
 ### Requirements:
 1. bs4
 2. urllib3
-3. selenium (First in open in Browser and scrape the information)
+3. selenium (First in open in Browser and then scrape the information)
 4. requests
 ### Usage:
 ###### Not open in webbrowser:
