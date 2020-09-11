@@ -65,6 +65,7 @@ def main(links):
             valve = int(a)
             download(links[valve - 1])
             print("Downloaded!")
+            sys.exit(0)
         elif valve == "open":
             try:
                 a = int(input("\n(open)>>>"))
