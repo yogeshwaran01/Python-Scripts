@@ -31,6 +31,7 @@ To get urls of the url
 
 ## [tic-tac-toe.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/tic-tac-toe.py)
 Play the tic-tac-toe Game </br>
+### Usage:
 <code> python tic-tac-toe.py </code>
 
 
