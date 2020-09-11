@@ -3,6 +3,7 @@ import bs4 as bs
 import sys
 from urllib.parse import urljoin
 import webbrowser
+from tqdm import tqdm
 
 def is_valid(url):
     import re
@@ -19,9 +20,12 @@ def is_valid(url):
         return True
 
 def download(url):
-    import wget
-    file_url = url
-    file_name = wget.download(file_url)
+    get_response = requests.get(url, stream=True)
+    file_name  = url.split("/")[-1]
+    with open(file_name, 'wb') as f:
+        for chunk in tqdm(get_response.iter_content(chunk_size=1024)):
+            if chunk:
+                f.write(chunk)
 
 def get_links(url):
     try:
@@ -57,15 +61,10 @@ def main(links):
 
         valve = input("\n>>> ")
         if valve == "save":
-            try:
-                a = int(input("\n(save)>>>"))
-                valve = int(a)
-                download(links[valve - 1])
-                print("Downloaded!")
-                continue
-            except:
-                print("Unabe to download")
-                continue
+            a = int(input("\n(save)>>>"))
+            valve = int(a)
+            download(links[valve - 1])
+            print("Downloaded!")
         elif valve == "open":
             try:
                 a = int(input("\n(open)>>>"))
@@ -82,7 +81,7 @@ def main(links):
                 print("use integer or save for download or open for open in webbrowser")
                 sys.exit()
         try:
-            print("\nForking {}...\n".format(link))
+            print("\nForking {}...\n".format(links[valve - 1]))
             links = get_links(links[valve - 1])
         except:
             continue
