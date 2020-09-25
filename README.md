@@ -1,5 +1,24 @@
 # Mini-Projects
+## [html-generator.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/html-generator.py)
+### Usage:
+##### importing
+<code> from html_generator import HtmlGenerator,HtmlViewer</code>
+##### object creation by passing name of the html file
+<code> html = HtmlGenerator("python.html") </code> 
+##### To clear any content in html file
+<code> html.clear() </code> 
+##### To create the simple tag by giving inner_html and tag-name
+<code> html.tag("Hello World","h1") </code> <br>
+<code> html.tag("Welcome !","p") </code> 
+ ##### To create the anchor tag by giving link and text
+<code> html.link_tag("https://www.google.com","Google") </code> 
+ ##### To create the image tag by giving source and alternative
+<code> html.img_tag("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png","Google")</code> 
 
+
+
+
+HtmlViewer("python.html")
 ## [url-forker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/url_forker.py)
 To get urls of the url
 ### Requirements:
