@@ -53,6 +53,8 @@ Play the tic-tac-toe Game </br>
 ### Usage:
 <code> python tic-tac-toe.py </code>
 
+<br>
+
 
 ## [extract-contact.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/extract-contact.py)
 It extracts all contact details (E-mail and Phone Numbers) from any websites and text-files
