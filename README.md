@@ -1,6 +1,6 @@
 # Python-Scripts
 
-## [mobile-tracker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/mobile-tracker.py)
+## [mobile-tracker.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/extract-contact.py)
 Track the mobile number with python
 ### Requirements
 1. requests
@@ -9,7 +9,7 @@ Track the mobile number with python
 <code> python mobile-tracker.py {mobile_number} </code>
 <br>
 
-## [html-generator.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/html-generator.py)
+## [html-generator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/html-generator.py)
 ### Usage:
 ##### importing
 <code> from html_generator import HtmlGenerator,HtmlViewer</code>
@@ -28,7 +28,7 @@ Track the mobile number with python
 <code> HtmlViewer("python.html") </code>
 <br>
 
-## [url-forker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/url_forker.py)
+## [url-forker.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/url_forker.py)
 To get urls of the url
 ### Requirements:
 1. bs4
@@ -45,7 +45,7 @@ To get urls of the url
 <code>open </code>    type open </br>
 <code>(open)>>> 5 </code>   type the url number to open in default webbrowser </br> 
  </br>
- ## [facebook-login.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/facebook-login.py)
+ ## [facebook-login.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/facebook-login.py)
  Login to facebook from command line 
  ### Requirements:
  1. selenium
@@ -55,7 +55,7 @@ To get urls of the url
  <code> python facebook-login.py </code>
  <br>
  
- ## [instadp.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/instadp.py)
+ ## [instadp.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instadp.py)
  To Download Instagram dp
  ### Requirements:
  <code> pip install instagramy </code>     [Github repo](https://github.com/yogeshwaran01/instagramy) </br>
@@ -63,13 +63,13 @@ To get urls of the url
   <code>python instadp username </code>
 </br>
 
-## [tic-tac-toe.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/tic-tac-toe.py)
+## [tic-tac-toe.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/tic-tac-toe.py)
 Play the tic-tac-toe Game </br>
 ### Usage:
 <code> python tic-tac-toe.py </code>
 <br>
 
-## [extract-contact.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/extract-contact.py)
+## [extract-contact.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/extract-contact.py)
 It extracts all contact details (E-mail and Phone Numbers) from any websites and text-files
 ### Requirements:
 1. bs4
