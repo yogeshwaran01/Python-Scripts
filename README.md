@@ -14,11 +14,11 @@
 <code> html.link_tag("https://www.google.com","Google") </code> 
  ##### To create the image tag by giving source and alternative
 <code> html.img_tag("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png","Google")</code> 
+##### To View in webbrowser
+<code> HtmlViewer("python.html") </code>
 
+<br>
 
-
-
-HtmlViewer("python.html")
 ## [url-forker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/url_forker.py)
 To get urls of the url
 ### Requirements:
