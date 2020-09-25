@@ -1,4 +1,13 @@
 # Mini-Projects
+
+## [mobile-tracker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/mobile-tracker.py)
+### Requirements
+1. requests
+2. bs4
+### Usage:
+<code> python mobile-tracker.py {mobile_number} </code>
+<br>
+
 ## [html-generator.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/html-generator.py)
 ### Usage:
 ##### importing
@@ -16,7 +25,6 @@
 <code> html.img_tag("https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png","Google")</code> 
 ##### To View in webbrowser
 <code> HtmlViewer("python.html") </code>
-
 <br>
 
 ## [url-forker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/url_forker.py)
@@ -35,26 +43,21 @@ To get urls of the url
 #### For open in webbrowser:
 <code>open </code>    type open </br>
 <code>(open)>>> 5 </code>   type the url number to open in default webbrowser </br> 
-
  </br>
  
  ## [instadp.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/instadp.py)
  To Download Instagram dp
  ### Requirements:
  <code> pip install instagramy </code>     [Github repo](https://github.com/yogeshwaran01/instagramy) </br>
- <code> pip install webbrowser </code>
  ### Usage:
   <code>python instadp username </code>
-  
 </br>
 
 ## [tic-tac-toe.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/tic-tac-toe.py)
 Play the tic-tac-toe Game </br>
 ### Usage:
 <code> python tic-tac-toe.py </code>
-
 <br>
-
 
 ## [extract-contact.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/extract-contact.py)
 It extracts all contact details (E-mail and Phone Numbers) from any websites and text-files
