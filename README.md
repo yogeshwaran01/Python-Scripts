@@ -1,4 +1,4 @@
-# Mini-Projects
+# Python-Scripts
 
 ## [mobile-tracker.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/mobile-tracker.py)
 Track the mobile number with python
