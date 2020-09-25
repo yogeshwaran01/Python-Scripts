@@ -44,6 +44,15 @@ To get urls of the url
 <code>open </code>    type open </br>
 <code>(open)>>> 5 </code>   type the url number to open in default webbrowser </br> 
  </br>
+ ## [facebook-login.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/facebook-login.py)
+ Login to facebook from command line 
+ ### Requirements:
+ 1. selenium
+ 2. Chrome driver
+ ### Usage:
+ ##### change the path of driver in the script 
+ <code> python facebook-login.py </code>
+ <br>
  
  ## [instadp.py](https://github.com/yogeshwaran01/Mini-Projects/blob/master/instadp.py)
  To Download Instagram dp
