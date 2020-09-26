@@ -45,7 +45,10 @@ def opener(username):
     webbrowser.open(url)
 
 if __name__ == '__main__':
-    username = sys.argv[1]
+    try:
+        username = sys.argv[1]
+    except:
+        username = str(input("Enter the Username: "))
     prompt = """
 
     [1] Download

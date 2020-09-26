@@ -88,7 +88,10 @@ def main(links):
             continue
 
 if __name__ == '__main__':
-    url = sys.argv[1]
+    try:
+        url = sys.argv[1]
+    except:
+        url = str(input("Enter the url to Fork"))
     if url[-1] == "/":
         url = url[:-1]
     else:

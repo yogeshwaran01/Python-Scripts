@@ -29,8 +29,10 @@ def phone_number_detail(number):
         print("{} : {}".format(i[0], i[1]))
     return final
 
-
-mobile_number = sys.argv[1]
+try:
+    mobile_number = sys.argv[1]
+except:
+    mobile_number = str(input("Enter the Mobile Number: "))
 
 try:
     print("Loading...")
