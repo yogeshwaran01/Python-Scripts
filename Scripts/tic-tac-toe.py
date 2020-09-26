@@ -3,7 +3,7 @@ from tkinter import messagebox
 master = Tk()
 master.geometry("1555x1500+0+0")
 master.title("X-O-X")
-master.iconbitmap("c:/gui/xox.ico")
+
 master.configure(background="gold2")
 
 topframe=Frame(master,bg="gold2",pady=2,height=100,width=1350,relief=RIDGE)
@@ -268,4 +268,3 @@ ml=Label(master,text="IF THE MATCH IS DRAW PRESS").grid(row=3,column=0)
 
 
 master.mainloop()
-
