@@ -36,7 +36,7 @@ def download(username):
     else:
         print("Check your internet connection")
 
-def open(username):
+def opener(username):
     """
     Funtion to open dp in default webbrowser
     """
@@ -57,7 +57,7 @@ if __name__ == '__main__':
     if option == "1":
         download(username)
     elif option == "2":
-        open(username)
+        opener(username)
     else:
         print("press 1 or 2")
         sys.exit()
