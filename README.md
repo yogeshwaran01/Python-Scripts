@@ -9,6 +9,16 @@ Track the mobile number with python
 <code> python mobile-tracker.py {mobile_number} </code>
 <br>
 
+## [ipl_points_table.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/ipl_points_table.py)
+Return the points table of ipl of required season
+### Requirements:
+1. bs4
+2. requests
+3. pandas
+### Usage:
+<code> python ipl_points_table.py 2020 </code>
+<br>
+
 ## [html-generator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/html-generator.py)
 ### Usage:
 ##### importing
