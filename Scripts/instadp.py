@@ -1,10 +1,13 @@
-from instagramy import Instagram # pip install instagramy
 import sys
+import webbrowser
+
 import requests
-import webbrowser # pip install webbrowser
+from instagramy import Instagram
+
 """
     Usage: python instagram_dp.py <username>
-    package_used: https://github.com/yogeshwaran01/instagramy visit is page to get more usage about package
+    package_used: https://github.com/yogeshwaran01/instagramy
+                  visit is page to get more usage about package
     Author: YOGESHWARAN R
 
 """
@@ -18,9 +21,10 @@ def get_dp(username):
         user = Instagram(username)
         dp_url = user.get_profile_pic()
         return dp_url
-    except:
-        print("Url not found")
-        return None
+    except (KeyError, TypeError, IndexError):
+        print("username not found")
+        sys.exit(1)
+
 
 def download(username):
     """
@@ -28,13 +32,14 @@ def download(username):
     """
     dp_url = get_dp(username)
     file_name = "{}.jpeg".format(username)
-    r = requests.get(dp_url,stream=True)
+    r = requests.get(dp_url, stream=True)
     if r.ok:
-        file = open(file_name,"wb")
+        file = open(file_name, "wb")
         file.write(r.content)
         print("{}'s dp downloaded!".format(username))
     else:
         print("Check your internet connection")
+
 
 def opener(username):
     """
@@ -44,10 +49,11 @@ def opener(username):
     print("{}'s dp is opening...".format(username))
     webbrowser.open(url)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     try:
         username = sys.argv[1]
-    except:
+    except IndexError:
         username = str(input("Enter the Username: "))
     prompt = """
 
