@@ -1,5 +1,19 @@
-from tkinter import (CENTER, RIDGE, SUNKEN, Button, E, Frame, IntVar, Label, N,
-                     S, StringVar, Tk, W, messagebox)
+from tkinter import (
+    CENTER,
+    RIDGE,
+    SUNKEN,
+    Button,
+    E,
+    Frame,
+    IntVar,
+    Label,
+    N,
+    S,
+    StringVar,
+    Tk,
+    W,
+    messagebox,
+)
 
 master = Tk()
 master.geometry("1555x1500+0+0")

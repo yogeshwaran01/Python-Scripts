@@ -2,7 +2,7 @@ import sys
 import webbrowser
 
 import requests
-from instagramy import Instagram
+from instagramy import InstagramUser
 
 """
     Usage: python instagram_dp.py <username>
@@ -18,9 +18,8 @@ def get_dp(username):
     Funtion to get dp url of the username
     """
     try:
-        user = Instagram(username)
-        dp_url = user.get_profile_pic()
-        return dp_url
+        user = InstagramUser(username)
+        return user.profile_picture_url
     except (KeyError, TypeError, IndexError):
         print("username not found")
         sys.exit(1)
