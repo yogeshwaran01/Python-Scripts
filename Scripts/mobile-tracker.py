@@ -12,7 +12,7 @@ mobile_tracker_key = [
     "Network",
     "Service Type / Signal",
     "Connection Status",
-    "+91 9787814226 - SIM card distributed at",
+    "SIM card distributed at",
     "Owner / Name of the caller",
     "Address / Current GPS Location",
     "Number of Search History",
