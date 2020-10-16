@@ -2,8 +2,8 @@
 
 Some python scripts
 
-| **Scripts**|
--------------- 
+|                                 **Scripts**                                                  |
+|----------------------------------------------------------------------------------------------|
 | [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) |
 | [coin_toss.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/coin_toss.py) |
 | [counting-valley.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/counting-valley.py) |
