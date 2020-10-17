@@ -3,7 +3,7 @@ import requests
 url = "https://elements-table-api.herokuapp.com/"
 
 
-def get_data_by_name(name: str) -> str:
+def get_data_by_name(name: str) -> dict:
     """
     Function get data from api by name of elements
     """
@@ -11,7 +11,7 @@ def get_data_by_name(name: str) -> str:
     return requests.get(url + "name/" + name).json()
 
 
-def get_data_by_number(num: str) -> str:
+def get_data_by_number(num: str) -> dict:
     """
     Function get data from api by atomic number of elements
     """
