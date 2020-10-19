@@ -19,7 +19,7 @@ def likes(list_of_names: list) -> str:
     """
 
     if len(list_of_names) == 0:
-        return f"no one likes this"
+        return "no one likes this"
     if len(list_of_names) == 1:
         return f"{list_of_names[0]} likes this"
     if len(list_of_names) == 2:
