@@ -42,7 +42,9 @@ class Track_Mobile_Number:
 
     @property
     def verify_number(self):
+
         return bool(len(self.mobile_number) == 10 and self.mobile_number.isdigit())
+
 
     @property
     def track(self) -> dict:
@@ -52,8 +54,7 @@ class Track_Mobile_Number:
             mobile_tracker_valve = [i.text.strip() for i in soup.find_all("td")]
             mobile_tracker = dict(zip(mobile_tracker_key, mobile_tracker_valve))
             return mobile_tracker
-        else:
-            raise Exception("Mobile Number Not Found")
+        raise Exception("Mobile Number Not Found")
 
 
 if __name__ == "__main__":

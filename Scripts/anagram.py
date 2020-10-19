@@ -27,7 +27,9 @@ def is_anagram(a: str, b: str) -> bool:
     True
     """
 
+
     return bool(len(a) == len(b) and set(a) == set(b))
+
 
 
 if __name__ == "__main__":

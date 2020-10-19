@@ -33,9 +33,7 @@ def flames(p1: str, p2: str) -> str:
 
         p2_list = con_list[star_index + 1 :]
 
-
     count = len(p1_list) + len(p2_list)
-
 
     result = ["Friends", "Love", "Affection", "Marriage", "Enemy", "Siblings"]
 
@@ -55,7 +53,8 @@ def flames(p1: str, p2: str) -> str:
 
     return "Flames between {} and {} is {}".format(p1, p2, result[0])
 
+
 if __name__ == "__main__":
     a = input("Enter the name of player-1: ")
-    b  = input("Enter the name of player-2: ")
+    b = input("Enter the name of player-2: ")
     print(flames(a, b))

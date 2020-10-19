@@ -43,7 +43,6 @@ MORSE_CODE = {
     "(": "-.--.",
     ")": "-.--.-",
 }
-from morse_code_decoder import decodeMorse
 
 
 def encodeMorse(word: str) -> str:

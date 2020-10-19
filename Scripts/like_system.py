@@ -20,11 +20,11 @@ def likes(list_of_names: list) -> str:
 
     if len(list_of_names) == 0:
         return f"no one likes this"
-    elif len(list_of_names) == 1:
+    if len(list_of_names) == 1:
         return f"{list_of_names[0]} likes this"
-    elif len(list_of_names) == 2:
+    if len(list_of_names) == 2:
         return f"{list_of_names[0]} and {list_of_names[1]} like this"
-    elif len(list_of_names) == 3:
+    if len(list_of_names) == 3:
         return (
             f"{list_of_names[0]}, {list_of_names[1]} and {list_of_names[2]} like this"
         )

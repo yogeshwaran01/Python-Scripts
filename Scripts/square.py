@@ -13,13 +13,13 @@ def is_square(n: int) -> bool:
 
     if n == 0:
         return True
-    else:
-        i = 1
-        while i * i <= n:
-            if (n % i == 0) and (n / i == i):
-                return True
-            i = i + 1
-        return False
+
+    i = 1
+    while i * i <= n:
+        if (n % i == 0) and (n / i == i):
+            return True
+        i = i + 1
+    return False
 
 
 if __name__ == "__main__":

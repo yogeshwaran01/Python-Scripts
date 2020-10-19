@@ -19,5 +19,5 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
-    for table in multiplication_tables_generator(5, 5 ,25):
+    for table in multiplication_tables_generator(5, 5, 25):
         print(table)

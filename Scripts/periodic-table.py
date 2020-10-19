@@ -7,7 +7,7 @@ def get_data_by_name(name: str) -> dict:
     """
     Function get data from api by name of elements
     """
-    
+
     return requests.get(url + "name/" + name).json()
 
 
@@ -15,7 +15,7 @@ def get_data_by_number(num: str) -> dict:
     """
     Function get data from api by atomic number of elements
     """
-    
+
     return requests.get(url + num).json()
 
 

@@ -13,15 +13,15 @@ Returns
 
 """
 
-def countingValleys(steps: int, path: str) -> int:
+
+def countingValleys(path: str) -> int:
     L = 0
     no_of_valley = 0
     for s in path:
-        if s == 'U':
-            L = L +1
+        if s == "U":
+            L = L + 1
             if L == 0:
                 no_of_valley = no_of_valley + 1
         else:
             L -= 1
     return no_of_valley
-
