@@ -9,12 +9,11 @@ def generate_hashtag(s):
     """
     if s == "":
         return False
-    elif len(s) > 140:
+    if len(s) > 140:
         return False
-    else:
-        res = "#"
-        for i in s.split():
-            res = res + i.capitalize()
+    res = "#"
+    for i in s.split():
+        res = res + i.capitalize()
     return res
 
 

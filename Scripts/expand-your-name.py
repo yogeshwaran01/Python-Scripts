@@ -201,6 +201,7 @@ def expand(username: str) -> int:
             result = result + a + "\n"
     return result
 
+
 if __name__ == "__main__":
     username = input("Enter your Name: ")
     print(expand(username))

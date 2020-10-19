@@ -3,6 +3,7 @@ Funtion return no.of.couples(pairs)
 in the list
 """
 
+
 def couples(ar: list) -> int:
     """
     >>> couples([10, 20, 20, 10, 10, 30, 50, 10, 20])
@@ -20,9 +21,9 @@ def couples(ar: list) -> int:
         else:
             pass
     return sum(res)
- 
-          
+
+
 if __name__ == "__main__":
     import doctest
-    
+
     doctest.testmod()

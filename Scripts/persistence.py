@@ -22,7 +22,7 @@ def persistence(n: int) -> int:
     a = list(str(n))
     count = 0
     while len(a) != 1:
-        a = list(str(mul(map(lambda x: int(x), a))))
+        a = list(str(mul(map(int, a))))
         count = count + 1
     return count
 

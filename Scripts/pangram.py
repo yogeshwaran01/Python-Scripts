@@ -21,8 +21,7 @@ def is_pangram(s: str) -> int:
 
     if set(ascii_lowercase) == set(s.lower()).intersection(set(ascii_lowercase)):
         return True
-    else:
-        return False
+    return False
 
 
 if __name__ == "__main__":
