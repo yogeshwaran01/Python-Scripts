@@ -42,9 +42,9 @@ class Track_Mobile_Number:
 
     @property
     def verify_number(self):
-        if len(self.mobile_number) == 10 and self.mobile_number.isdigit():
-            return True
-        return False
+
+        return bool(len(self.mobile_number) == 10 and self.mobile_number.isdigit())
+
 
     @property
     def track(self) -> dict:
