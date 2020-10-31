@@ -1,6 +1,6 @@
 # Python-Scripts
 
-Some python scripts
+Some Python Scripts
 
 | **Scripts - 40**|
 |--------------|
