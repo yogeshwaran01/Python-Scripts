@@ -110,7 +110,7 @@ if __name__ == "__main__":
     try:
         url = sys.argv[1]
     except:
-        url = str(input("Enter the url to Fork"))
+        url = str(input("Enter the url to Fork: "))
     if url[-1] == "/":
         url = url[:-1]
     else:

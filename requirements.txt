@@ -49,6 +49,7 @@ six==1.15.0
 sniffio==1.2.0
 soupsieve==2.0.1
 toml==0.10.1
+tqdm==4.51.0
 typed-ast==1.4.1
 typing-extensions==3.7.4.3
 urllib3==1.25.10
