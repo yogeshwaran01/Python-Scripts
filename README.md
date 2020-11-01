@@ -2,8 +2,9 @@
 
 Some python scripts
 
-| **Scripts - 51**|
+| **Scripts - 53**|
 |--------------|
+| [__pycache__](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/__pycache__) |
 | [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) |
 | [automate-google-search.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate-google-search.py) |
 | [automate_youtube.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate_youtube.py) |
@@ -54,4 +55,5 @@ Some python scripts
 | [tiny-url-shortner.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/tiny-url-shortner.py) |
 | [translator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/translator.py) |
 | [url_forker.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/url_forker.py) |
+| [weather.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/weather.py) |
 | [wifi-password.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/wifi-password.py) |
