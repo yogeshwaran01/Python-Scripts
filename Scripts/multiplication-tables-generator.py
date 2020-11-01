@@ -19,5 +19,8 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
-    for table in multiplication_tables_generator(5, 5, 25):
+    table = int(input("Enter the Table Number: "))
+    miny = int(input("Enter the Minimum Valve: "))
+    maxy = int(input("Enter the Maximum Valve: "))
+    for table in multiplication_tables_generator(table, miny, maxy):
         print(table)
