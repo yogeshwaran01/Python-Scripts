@@ -1,4 +1,4 @@
-from googletrans import Translator, LANGCODES, LANGUAGES
+from googletrans import Translator, LANGUAGES
 
 
 class Translation:
@@ -40,7 +40,7 @@ class Translation:
 
 
 if __name__ == "__main__":
-    print(LANGUAGES)
+    print(LANGUAGES)  # To Get all Avialable Languages
     t = Translation("ta")
     print(t.Translate("Hello World !"))
     print(t.from_file("sample.txt", "sample_out.txt"))
