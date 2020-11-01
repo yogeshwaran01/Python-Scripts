@@ -2,7 +2,7 @@
 
 Some python scripts
 
-| **Scripts - 45**|
+| **Scripts - 51**|
 |--------------|
 | [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) |
 | [automate-google-search.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate-google-search.py) |
@@ -11,10 +11,13 @@ Some python scripts
 | [battery.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/battery.py) |
 | [bored_activity.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bored_activity.py) |
 | [coin_toss.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/coin_toss.py) |
+| [count_words_text_files.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/count_words_text_files.py) |
 | [counting-valley.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/counting-valley.py) |
 | [create_phone_number.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/create_phone_number.py) |
 | [dice-roller.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/dice-roller.py) |
 | [dict_exchange.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/dict_exchange.py) |
+| [directory_as_server_1.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/directory_as_server_1.py) |
+| [directory_as_server_2.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/directory_as_server_2.py) |
 | [duck-duck-go.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/duck-duck-go.py) |
 | [expand-your-name.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/expand-your-name.py) |
 | [extract-contact.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/extract-contact.py) |
@@ -38,12 +41,15 @@ Some python scripts
 | [my-ip-hostname.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/my-ip-hostname.py) |
 | [no_of_couples.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/no_of_couples.py) |
 | [pangram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/pangram.py) |
+| [password_strength.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/password_strength.py) |
 | [periodic-table.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/periodic-table.py) |
 | [persistence.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/persistence.py) |
 | [programming_jokes.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/programming_jokes.py) |
 | [send-sms.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/send-sms.py) |
+| [simple_calculator_gui.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/simple_calculator_gui.py) |
 | [spin_words.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/spin_words.py) |
 | [square.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/square.py) |
+| [temperture-conversion-gui.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/temperture-conversion-gui.py) |
 | [tic-tac-toe.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/tic-tac-toe.py) |
 | [tiny-url-shortner.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/tiny-url-shortner.py) |
 | [translator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/translator.py) |
