@@ -2,9 +2,8 @@
 
 Some python scripts
 
-| **Scripts - 53**|
+| **Scripts - 52**|
 |--------------|
-| [__pycache__](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/__pycache__) |
 | [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) |
 | [automate-google-search.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate-google-search.py) |
 | [automate_youtube.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate_youtube.py) |
