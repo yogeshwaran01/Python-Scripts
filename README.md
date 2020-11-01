@@ -1,12 +1,13 @@
 # Python-Scripts
 
-Some Python Scripts
+Some python scripts
 
-| **Scripts - 40**|
+| **Scripts - 45**|
 |--------------|
 | [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) |
 | [automate-google-search.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate-google-search.py) |
 | [automate_youtube.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate_youtube.py) |
+| [bad_word_beeper.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bad_word_beeper.py) |
 | [battery.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/battery.py) |
 | [bored_activity.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bored_activity.py) |
 | [coin_toss.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/coin_toss.py) |
@@ -22,6 +23,7 @@ Some Python Scripts
 | [flames.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/flames.py) |
 | [hashtag_generator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/hashtag_generator.py) |
 | [instadp.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instadp.py) |
+| [instagram_check_username.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instagram_check_username.py) |
 | [instagram_hastags_post.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instagram_hastags_post.py) |
 | [instagramy-docs.ipynb](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instagramy-docs.ipynb) |
 | [instalysis.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instalysis.py) |
@@ -33,6 +35,7 @@ Some Python Scripts
 | [morse_code_decoder.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/morse_code_decoder.py) |
 | [morse_code_encoder.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/morse_code_encoder.py) |
 | [multiplication-tables-generator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/multiplication-tables-generator.py) |
+| [my-ip-hostname.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/my-ip-hostname.py) |
 | [no_of_couples.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/no_of_couples.py) |
 | [pangram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/pangram.py) |
 | [periodic-table.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/periodic-table.py) |
@@ -42,5 +45,7 @@ Some Python Scripts
 | [spin_words.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/spin_words.py) |
 | [square.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/square.py) |
 | [tic-tac-toe.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/tic-tac-toe.py) |
+| [tiny-url-shortner.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/tiny-url-shortner.py) |
+| [translator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/translator.py) |
 | [url_forker.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/url_forker.py) |
 | [wifi-password.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/wifi-password.py) |
