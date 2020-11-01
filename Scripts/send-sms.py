@@ -15,6 +15,6 @@ def send_sms(number: str, message: str) -> list:
 
 
 if __name__ == "__main__":
-    a = input("Enter the number")
-    b = input("Enter the message")
+    a = input("Enter the number: ")
+    b = input("Enter the message: ")
     print(send_sms(a, b))

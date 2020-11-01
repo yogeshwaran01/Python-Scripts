@@ -58,6 +58,7 @@ class ContactExtracter:
 
 
 if __name__ == "__main__":
-    x = ContactExtracter("https://yogeshwaran.herokuapp.com")
+    source = input("Enter the URL or text files to extract contact: ")
+    x = ContactExtracter(source)
     print(x.extract_email)
     print(x.extract_phone_number)

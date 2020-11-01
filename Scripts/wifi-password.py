@@ -6,11 +6,13 @@ import subprocess
 
 
 def get_all_profiles():
-    data = subprocess.check_output(
-        ["netsh", "wlan", "show", "profiles", "key=clear"]
-    ).decode("utf-8", errors="backslashreplace")
-
-    return data
+    try:
+        data = subprocess.check_output(
+            ["netsh", "wlan", "show", "profiles", "key=clear"]
+        ).decode("utf-8", errors="backslashreplace")
+        return data
+    except FileNotFoundError:
+        return "Only For Windows"
 
 
 def get_profiles_info(profile):
@@ -21,8 +23,9 @@ def get_profiles_info(profile):
 
         return data
     except subprocess.CalledProcessError:
-
         return "Profile Not Found"
+    except FileNotFoundError:
+        return "Only For Windows"
 
 
 if __name__ == "__main__":

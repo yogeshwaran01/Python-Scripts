@@ -8,4 +8,6 @@ def TinyShortner(big_url):
     return post("https://tinyurl.com/api-create.php", data={"url": big_url}).text
 
 
-print(TinyShortner("https://www.python.org"))
+if __name__ == "__main__":
+    url = input("Enter the Big Url to short: ")
+    print(TinyShortner(url))

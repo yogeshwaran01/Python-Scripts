@@ -64,3 +64,6 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
+
+    sen = input("Enter the string to Encode: ")
+    print(encodeMorse(sen))

@@ -419,5 +419,5 @@ def beep_bad_words(string: str, symbol: str) -> str:
 
 if __name__ == "__main__":
 
-    print(beep_bad_words("What a Fuck !", "*"))
-    print(beep_bad_words("Bloody Bullshit", "-"))
+    sen = str(input("Enter the sentence of Bad words: "))
+    print(beep_bad_words(sen, "*"))
