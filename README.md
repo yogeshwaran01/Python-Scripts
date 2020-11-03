@@ -2,18 +2,22 @@
 
 Some python scripts
 
-| **Scripts - 52**|
+| **Scripts - 57**|
 |--------------|
+| [all_disk_info.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/all_disk_info.py) |
 | [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) |
 | [automate-google-search.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate-google-search.py) |
 | [automate_youtube.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate_youtube.py) |
 | [bad_word_beeper.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bad_word_beeper.py) |
 | [battery.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/battery.py) |
+| [boot_time.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/boot_time.py) |
 | [bored_activity.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bored_activity.py) |
+| [bytes_convert.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bytes_convert.py) |
 | [coin_toss.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/coin_toss.py) |
 | [count_words_text_files.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/count_words_text_files.py) |
 | [counting-valley.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/counting-valley.py) |
 | [create_phone_number.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/create_phone_number.py) |
+| [csv_to_json.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/csv_to_json.py) |
 | [dice-roller.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/dice-roller.py) |
 | [dict_exchange.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/dict_exchange.py) |
 | [directory_as_server_1.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/directory_as_server_1.py) |
@@ -32,6 +36,7 @@ Some python scripts
 | [instalysis.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instalysis.py) |
 | [ip-adrsess-info.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/ip-adrsess-info.py) |
 | [ipl_points_table.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/ipl_points_table.py) |
+| [json_to_csv.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/json_to_csv.py) |
 | [like_system.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/like_system.py) |
 | [middle_of_string.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/middle_of_string.py) |
 | [mobile-tracker.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/mobile-tracker.py) |
