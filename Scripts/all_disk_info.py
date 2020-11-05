@@ -19,7 +19,7 @@ class DiskInfo:
     """
 
     def __init__(self):
-        self.data = disk_partitions(all=True)
+        self.data = disk_partitions(all=False)
 
     def details(self, device_name: str) -> tuple:
         for i in self.data:
@@ -42,6 +42,8 @@ class DiskInfo:
             disk_info["Usage"] = f"{usage.percent} %"
         except PermissionError:
             pass
+        except FileNotFoundError:
+            pass
         info = self.details(device_name)
         disk_info.update({"Device": info.device})
         disk_info["Mount Point"] = info.mountpoint
@@ -60,4 +62,4 @@ class DiskInfo:
 if __name__ == "__main__":
     info = DiskInfo().all_disk_info
     _list = [i.values() for i in info]
-    print(tabulate(_list, headers=info[0].keys(), tablefmt="grid", missingval="-"))
+    print(tabulate(_list, headers=info[0].keys(), tablefmt="simple", missingval="-"))
