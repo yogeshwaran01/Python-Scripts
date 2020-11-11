@@ -2,7 +2,7 @@ import json
 import csv
 
 
-def json_to_csv(json_file, csv_file):
+def json_to_csv(json_file: str, csv_file: str) -> bool:
     """
     > Function covert json into csv
     > Funtion need some changes according to your file

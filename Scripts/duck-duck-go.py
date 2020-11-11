@@ -6,7 +6,7 @@ class DuckDuckGO:
 
     url = "https://api.duckduckgo.com/?q={}&format=json"
 
-    def __init__(self, query):
+    def __init__(self, query: str):
         self.query = quote_plus(query)
         self.url = self.url.format(self.query)
         self.data = self.get_json()

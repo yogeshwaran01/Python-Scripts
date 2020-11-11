@@ -1,7 +1,7 @@
 import requests
 
 
-def get_jokes():
+def get_jokes() -> dict:
     """
     Funtion get random Jokes
     """

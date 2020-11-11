@@ -1,6 +1,8 @@
 import os
 
-os.chdir(os.getcwd() + "/Scripts")
+home = os.getcwd()
+
+os.chdir(home + "/Scripts")
 
 main = "https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/"
 
@@ -10,9 +12,11 @@ for i in os.listdir():
     s = f"| [{i}]({main + i}) |" + "\n"
     l.append(s)
 
+os.chdir(home)
+
 file = open("README.md", "w")
 file.write("# Python-Scripts" + "\n" + "\n")
-file.write("Some python scripts" + "\n" + "\n")
-file.write(f"| **Scripts - {len(l)}**|" + "\n")
+file.write("Some 🐍 Python Scripts" + "\n" + "\n")
+file.write(f"| **Scripts - {len(l)}** |" + "\n")
 file.write("|--------------|" + "\n")
 file.writelines(sorted(l))

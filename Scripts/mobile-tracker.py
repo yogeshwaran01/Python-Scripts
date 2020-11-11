@@ -45,7 +45,6 @@ class Track_Mobile_Number:
 
         return bool(len(self.mobile_number) == 10 and self.mobile_number.isdigit())
 
-
     @property
     def track(self) -> dict:
         html = requests.post(self.url, data=self.data, headers=headers)

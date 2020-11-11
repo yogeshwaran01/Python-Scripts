@@ -34,7 +34,7 @@ class Translation:
         with open(output_path, "w") as file_obj:
             file_obj.write(str(self.Translate(lines)))
 
-    def __repr__(self):
+    def __repr__(self) -> str:
 
         return f"{self.__class__}({self.lang_code})"
 

@@ -31,7 +31,7 @@ class Bulk_HashTag_Post_Download:
         self.hashtags = hashtag_name_list
         self.limit = limit
 
-    def get_info(self, hashtag):
+    def get_info(self, hashtag: str) -> list:
 
         tag = InstagramHashTag(hashtag)
 
@@ -40,7 +40,7 @@ class Bulk_HashTag_Post_Download:
 
         return tag.top_posts
 
-    def write(self, posts_info):
+    def write(self, posts_info: dict) -> bool:
 
         url = posts_info["display_url"]
         _id = posts_info["shortcode"]
@@ -50,10 +50,10 @@ class Bulk_HashTag_Post_Download:
             file = open(file_name, "wb")
             file.write(r.content)
             return True
-        else:
-            return False
+        
+        return False
 
-    def download(self):
+    def download(self) -> bool:
 
         if type(self.hashtags) is list:
 
@@ -68,7 +68,7 @@ class Bulk_HashTag_Post_Download:
 
         return True
 
-    def open_in_browser(self):
+    def open_in_browser(self) -> bool:
 
         if type(self.hashtags) is list:
 

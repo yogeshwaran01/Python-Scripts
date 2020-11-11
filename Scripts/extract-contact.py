@@ -28,7 +28,7 @@ class ContactExtracter:
 
     """
 
-    def __init__(self, source):
+    def __init__(self, source: str):
         if is_valid_url(source):
             self.source = requests.get(source).text
         else:

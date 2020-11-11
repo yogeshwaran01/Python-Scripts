@@ -13,7 +13,7 @@ from instagramy import InstagramUser
 """
 
 
-def get_dp(username):
+def get_dp(username: str) -> str:
     """
     Funtion to get dp url of the username
     """
@@ -25,7 +25,7 @@ def get_dp(username):
         sys.exit(1)
 
 
-def download(username):
+def download(username: str) -> None:
     """
     Funtion to download the dp
     """
@@ -40,7 +40,7 @@ def download(username):
         print("Check your internet connection")
 
 
-def opener(username):
+def opener(username: str) -> None:
     """
     Funtion to open dp in default webbrowser
     """

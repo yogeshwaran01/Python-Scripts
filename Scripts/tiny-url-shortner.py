@@ -1,7 +1,7 @@
 from requests import post
 
 
-def TinyShortner(big_url):
+def TinyShortner(big_url: str) -> str:
     """
     Funtion short the big urls to tiny by Tiny Api
     """

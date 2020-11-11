@@ -1,7 +1,7 @@
 import requests
 
 
-def get_activity():
+def get_activity() -> dict:
     """
     Funtion get random activity from the Api
     """

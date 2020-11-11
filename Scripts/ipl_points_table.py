@@ -8,7 +8,7 @@ from fake_useragent import UserAgent
 headers = {"UserAgent": UserAgent().random}
 
 
-def merge_into_dict(list_1, list_2) -> dict:
+def merge_into_dict(list_1: list, list_2: list) -> dict:
     """
     Merge two lists into Dictionary
     """
@@ -19,7 +19,7 @@ def merge_into_dict(list_1, list_2) -> dict:
     return result_dict
 
 
-def ipl_points_table(year) -> list:
+def ipl_points_table(year: str) -> list:
     """
     Funtion return the ipl points table
     """

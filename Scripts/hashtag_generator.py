@@ -1,4 +1,4 @@
-def generate_hashtag(s):
+def generate_hashtag(s: str) -> str:
     """
     >>> generate_hashtag("Python Is Nice")
     '#PythonIsNice'

@@ -2,7 +2,7 @@ import csv
 import json
 
 
-def csv_to_json(input_csv, output_json):
+def csv_to_json(input_csv: str, output_json: str) -> bool:
     """
     > Funtion Convert csv to json file
     > Funtion need some changes according to your file

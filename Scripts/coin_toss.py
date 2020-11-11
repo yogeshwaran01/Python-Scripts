@@ -1,7 +1,7 @@
 import random
 
 
-def Toss():
+def Toss() -> str:
     """
     Funtion return random toss
     """

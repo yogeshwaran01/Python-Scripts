@@ -3,7 +3,7 @@ import re
 from requests import get
 
 
-def get_my_ip():
+def get_my_ip() -> None:
     """
     Funtion to get current ip in Network
     """
@@ -12,7 +12,7 @@ def get_my_ip():
     return re.compile(r"Address: (\d+.\d+.\d+.\d+)").search(get(url).text).group(1)
 
 
-def get_ip_info(ip):
+def get_ip_info(ip: str) -> dict:
     """
     Function to get info about any ip
     """
