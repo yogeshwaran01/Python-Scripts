@@ -1,5 +1,5 @@
 from reportlab.platypus import SimpleDocTemplate
-from reportlab.platypus import Paragraph, Spacer, Table, Image
+from reportlab.platypus import Paragraph, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib import colors
 
