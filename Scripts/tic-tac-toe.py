@@ -28,7 +28,7 @@ labtitle = Label(
     font=("arial", 60, "bold italic"),
     text="   X-0-X     THE ULTIMATE FUN GAME       ",
     bd=21,
-    fg="olivedrab1",
+    fg="red",
     justify=CENTER,
 )
 labtitle.grid(row=0, column=0)

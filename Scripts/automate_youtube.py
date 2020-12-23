@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
     if option == 1:
         video.play()
-    if option == 2:
+    elif option == 2:
         video.info()
     else:
         print("Invalid Mode")
