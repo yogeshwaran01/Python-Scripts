@@ -2,11 +2,11 @@
 
 Some 🐍 Python Scripts
 
-| **Scripts - 66** | **Description** |
+| **Scripts - 68** | **Description** |
 |--------------|----------------------|
 | [all_disk_info.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/all_disk_info.py) | All information about Disk Usage |
 | [age.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/age.py) | Check your age here |
-| [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) | An anagram Algorithm | 
+| [anagram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/anagram.py) | An anagram Algorithm |
 | [automate-google-search.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate-google-search.py) | Goole search Automation |
 | [automate_youtube.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/automate_youtube.py) | Automate Youtube search |
 | [bad_word_beeper.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bad_word_beeper.py) | Remove the badwords from strings |
@@ -14,6 +14,7 @@ Some 🐍 Python Scripts
 | [boot_time.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/boot_time.py) | Print out the Boot time |
 | [bored_activity.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bored_activity.py) | Random activity while boring |
 | [bytes_convert.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/bytes_convert.py) | Convert bytes to other units |
+| [check_variable_exists.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/check_variable_exists.py.py) | Check variable exists |
 | [coin_toss.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/coin_toss.py) | Toss the coin |
 | [count_words_text_files.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/count_words_text_files.py) | Count the word in text files |
 | [counting-valley.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/counting-valley.py) | An counting  valley Algorithm |
@@ -21,6 +22,7 @@ Some 🐍 Python Scripts
 | [csv_to_json.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/csv_to_json.py) | convert csv into json |
 | [dice-roller.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/dice-roller.py) | Roll the Dice for Fun |
 | [dict_exchange.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/dict_exchange.py) | Dict key to valve and vice-versa |
+| [digital_clock.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/digital_clock.py) | Commmand line digital clock |
 | [directory_as_server_1.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/directory_as_server_1.py) | Folder as server |
 | [directory_as_server_2.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/directory_as_server_2.py) | Folder as server |
 | [download_meme_templates.py.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/download_meme_templates.py) | Script to download 100 Meme templates |
@@ -35,7 +37,6 @@ Some 🐍 Python Scripts
 | [hashtag_generator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/hashtag_generator.py) | Generate hashtags from string |
 | [images_to_pdf.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/images_to_pdf.py) | Convert multiple image into pdf |
 | [instadp.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instadp.py) | Download the Instagram Display Picture |
-| [instagram_check_username.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instagram_check_username.py) | Check Username associated with Instagram |
 | [instagram_hastags_post.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instagram_hastags_post.py) | Download many posts from many Instagram hastags |
 | [instalysis.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/instalysis.py) | Compare Instagram popularity for multiple accounts |
 | [ip-adrsess-info.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/ip-adrsess-info.py) | Get some inforamtion about your IP |
@@ -48,6 +49,7 @@ Some 🐍 Python Scripts
 | [morse_code_encoder.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/morse_code_encoder.py) | Encode the Morse's code |
 | [multiplication-tables-generator.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/multiplication-tables-generator.py) | Generate Multplication tables |
 | [my-ip-hostname.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/my-ip-hostname.py) | Find you ip and hostname |
+| [new_year_countdown.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/new_year_countdown.py) | Interactive Countdown to Next New Year |
 | [no_of_couples.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/no_of_couples.py) | No.of couples Algorithm |
 | [pangram.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/pangram.py) | Pangram Algorithms |
 | [password_strength.py](https://github.com/yogeshwaran01/Python-Scripts/blob/master/Scripts/password_strength.py) | Check your Password Strength for safety |
